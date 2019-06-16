@@ -1,0 +1,1 @@
+A sales prediction using monte calro simulation. Simple random simulation can be used to predict any numeric output.
