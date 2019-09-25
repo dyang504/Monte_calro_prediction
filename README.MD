@@ -19,7 +19,7 @@ The prediction variable is monthly sale. The data we have is only several daily 
 3. Repeat 100000+ times of the simulation results and store it 
 4. Calculate mean, median, best and worst case of results and compare it to the goal, additionally a chance of complete that goal.
 
-How to use the code
+**How to use the code**
 
 Download the code by using `git clone`.
 
@@ -27,3 +27,9 @@ Download the code by using `git clone`.
     cd project_directory
     virtualenv ENV_NAME
     pip install -r requirements.txt
+
+    from MCPredictor import MonteCarloPredictor
+    
+    sale_prediction = MonteCarloPredictor(MEAN, STD, DAYS_LEFT)
+    sale_predict.predict_mean_achievement()
+    sale_predict.report_chance_of_achieve_KPI(CURRENT_SALE,TARGET_SALE)
